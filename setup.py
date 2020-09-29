@@ -54,9 +54,9 @@ elif 'test' in sys.argv:
         if test.endswith(".py"):
             if 0 != subprocess.call(["tests/" + test]):
                 fail += 1
-                print test, "failed!"
+                print(test, "failed!")
     if not fail:
-        print "all tests passed :)"
+        print("all tests passed :)")
         sys.exit(0)
     sys.exit(1)
 
