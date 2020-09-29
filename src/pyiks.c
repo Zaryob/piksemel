@@ -1003,7 +1003,7 @@ static struct PyModuleDef iksemelmodule ={
 
 __attribute__((visibility("default")))
 PyMODINIT_FUNC
-PyInit_iksemel(void)
+PyInit_piksemel(void)
 {
 	PyObject *m;
 
